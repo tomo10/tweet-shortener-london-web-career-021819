@@ -42,7 +42,7 @@ def selective_tweet_shortener(tweet)
   end
 end
 
-def shortened_tweet_shortener(tweet) 
+def shortened_tweet_truncator(tweet) 
   x = word_substituter(tweet).split("")
   y = x.size
   if y > 140 
