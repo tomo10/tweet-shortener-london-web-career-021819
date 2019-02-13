@@ -47,6 +47,8 @@ def shortened_tweet_shortener(tweet)
   y = x.size
   if y > 140 
     return x[0...140].join("") + "..."
+  else
+    return tweet
   
   end
   
