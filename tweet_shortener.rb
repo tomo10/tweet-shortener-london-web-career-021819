@@ -46,7 +46,7 @@ def shortened_tweet_shortener(tweet)
   x = word_substituter(tweet).split("")
   y = x.size
   if y > 140 
-    return x[0...134].join("") + "..."
+    return x[0...140].join("") + "..."
   
   end
   
